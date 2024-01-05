@@ -1,0 +1,38 @@
+html{
+  scroll-behavior: smooth;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+h1,h2,h3,h4,p,a{
+  margin: 0;
+}
+section{
+  margin: 0;
+  height: 100vh;
+  /*background-color: rgb(220,225,219);*/
+}
+
+/* SCROLL BAR CUSTOMIZED DESIGN*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: rgb(239, 239, 239);
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: none;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #424530; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1e1f17; 
+}
